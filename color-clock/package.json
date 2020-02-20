@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Hello World!'"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "",
   "license": "ISC"
