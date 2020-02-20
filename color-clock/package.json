@@ -7,5 +7,8 @@
     "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
